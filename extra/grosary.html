@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css"
+        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="v1.js"></script>
+    <style>
+        #id2 {
+            visibility: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row d-flex justify-content-center align-items-center text-light mt-5">
+
+            <div class="col-4"></div>
+
+            <div class="col-4 bg-primary border border-secondary" style="height:150px;">
+
+                <div class="row pt-3 d-flex justify-content-center">Add Grocery Items</div>
+                <div id="id1" class="row pt-2 d-flex justify-content-center ">
+                    <input style="border:none; border-bottom:palevioletred; width:160px;">
+                </div>
+                <div class="row pt-3 justify-content-center">
+                    <button id="sub" type="button" onclick="addItems()" class="btn btn-primary border border-light"
+                        style="width: 400px;">Submit Here</button>
+                </div>
+            </div>
+
+            <div class="col-4 "></div>
+
+        </div>
+
+        <div class="row  d-flex justify-content-center align-items-center mt-5">
+            <div class="col-4"></div>
+            <div id="box" class="col-4 bg-success border border-secondary text-light" style="height:250px; ">
+                <div class="row pt-3 d-flex justify-content-center">Grocery Items</div>
+
+                <div id="id2" class="row d-flex justify-content-between">
+                    <div class="col-9" id="id3">I</div>
+                    <div class="col-3 d-flex justify-content-end"><a  onclick="deletecomment(this)" id="del" href="#" style="color: white;">delete<i class="fa fa-trash-o"
+                                aria-hidden="true"></i></a></div>
+                </div>
+
+                <div class="row mt-4 justify-content-center">
+                    <button type="button" class="btn btn-light border border-primary" style="width: 400px;">Clear
+                    Items</button>
+                </div>
+            </div>
+            <div class="col-4"></div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport"
+            content="width=device-width, initial-scale=1.0"/>
+    
+        <title>Document</title>
+
+        <script src="main.js"></script>
+
+    </head>
+  
+    <body>
+        <div style="display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 10px;
+                padding: 10px;">
+        
+            <div><h1>Someone has posted something!!!</h1></div>
+
+            <div style="margin-top: 4px; margin-bottom: 4px;">
+                <input class="temp"
+                        type="text"
+                        name=""
+                        id="inputId1"
+                        placeholder="comment using this"/>
+            </div>
+
+            <div>
+                <button id="btnid"
+                        style="font-size: larger;
+                            font-weight: bold;
+                            margin: 10px;
+                            padding: 10px;
+                            border: solid black;
+                            border-radius: 10px;"
+                        onclick="likeHere()">Like 1</button>
+
+                <button style="font-size: larger;
+                            font-weight: bold;
+                            margin: 10px;
+                            padding: 10px;
+                            border: solid black;
+                            border-radius: 10px;"
+                        onclick="commentHere()">Comment Now</button>
+            </div>
+
+            <div id="commentBox"
+                style="width: 100%;
+                    font-weight: bold;
+                    align-items: center;
+                    text-align: center;
+                    font-size: larger ;
+                    border: solid black;"></div>
+        </div>
+    </body>
+</html>
