@@ -113,12 +113,18 @@ img#flag {
 }
 
 @media screen and (max-width: 550px) {
+      .board {
+        column-count: 1;
+    }
     #countryid {
-        margin-left: 50px;
+        margin-left: 2px;
         margin-bottom: 3px;
+        margin-right: 2px
+        width: auto;
     }
     #btnclk {
         margin-left: 70px;
         margin-top: 3px;
+        
     }
 }
